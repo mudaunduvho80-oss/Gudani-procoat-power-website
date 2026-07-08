@@ -1,314 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gudani ProCoat & Power</title>
+# Gudani ProCoat & Power Website
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+A responsive business website developed using **HTML** and **CSS** for Gudani ProCoat & Power. The website showcases the company's services, business information, and contact details with a clean and user-friendly design.
 
-        body {
-            background: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
+## Features
 
-        header {
-            background: #005fa3;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
+* Responsive layout
+* Professional business homepage
+* Services section
+* About Us section
+* Customer testimonials
+* Contact information
+* Quote request form
 
-        nav {
-            background: #0b7d3b;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+## Technologies Used
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 15px;
-            font-weight: bold;
-        }
+* HTML5
+* CSS3
 
-        nav a:hover {
-            background: #06612d;
-        }
+## Project Structure
 
-        .hero {
-            background: linear-gradient(to right, #005fa3, #0b7d3b);
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
+```
+├── Logo.html
+├── Logo.jpeg
+├── our work.jpeg
+└── README.md
+```
 
-        .hero img {
-            width: 250px;
-            max-width: 90%;
-            margin: 20px 0;
-            border-radius: 10px;
-        }
+## How to Run
 
-        .btn {
-            display: inline-block;
-            background: orange;
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+1. Download or clone the repository.
+2. Open `Logo.html` in any modern web browser.
 
-        .btn:hover {
-            background: darkorange;
-        }
+## Future Improvements
 
-        section {
-            background: white;
-            margin: 20px;
-            padding: 25px;
-            border-radius: 10px;
-        }
+* Add JavaScript for interactive features.
+* Connect the contact form to a backend.
+* Improve SEO and accessibility.
+* Add more project images and customer reviews.
 
-        h2 {
-            color: #005fa3;
-            margin-bottom: 15px;
-        }
+## Author
 
-        .service-card {
-            background: #eef6ff;
-            border-left: 5px solid #005fa3;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-
-        .service-card ul {
-            margin-left: 20px;
-        }
-
-        .gallery img {
-            width: 100%;
-            max-width: 500px;
-            display: block;
-            margin: 15px auto;
-            border-radius: 10px;
-        }
-
-        .features li {
-            margin-bottom: 10px;
-        }
-
-        form input,
-        form textarea {
-            width: 100%;
-            padding: 12px;
-            margin-top: 10px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        form button {
-            background: #005fa3;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        form button:hover {
-            background: #00457a;
-        }
-
-        footer {
-            background: #005fa3;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 20px;
-        }
-
-        @media (max-width: 600px) {
-            nav {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-<header>
-    <h1>Gudani ProCoat & Power</h1>
-    <p>Professional Painting & Installation Services</p>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#why">Why Us</a>
-    <a href="#projects">Projects</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#quote">Quote</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section class="hero">
-    <h2>Transforming Homes & Businesses</h2>
-    <p>Professional painting, waterproofing, pressure pump installation and motor services.</p>
-
-    <img src="Logo.jpeg" alt="Gudani ProCoat & Power Logo">
-
-    <br>
-
-    <a href="#quote" class="btn">Request a Free Quote</a>
-</section>
-
-<section id="about">
-    <h2>About Us</h2>
-
-    <p>
-        Gudani ProCoat & Power specializes in residential and commercial
-        painting, roof painting, waterproofing, pressure pump installation,
-        and motor installation services.
-    </p>
-
-    <p>
-        Our mission is to provide reliable workmanship, quality finishes,
-        and professional service that customers can trust.
-    </p>
-</section>
-
-<section id="services">
-    <h2>Our Services</h2>
-
-    <div class="service-card">
-        <h3>Painting Services</h3>
-        <ul>
-            <li>Wall Painting</li>
-            <li>House Painting (Interior & Exterior)</li>
-            <li>Roof Painting</li>
-            <li>Roof Waterproofing</li>
-            <li>Floor Painting</li>
-        </ul>
-    </div>
-
-    <div class="service-card">
-        <h3>Installation Services</h3>
-        <ul>
-            <li>Pressure Pump Installation</li>
-            <li>Motor Installation</li>
-            <li>Pump Maintenance</li>
-            <li>High-Pressure Systems</li>
-        </ul>
-    </div>
-</section>
-
-<section id="why">
-    <h2>Why Choose Us?</h2>
-
-    <ul class="features">
-        <li>✔ Professional workmanship</li>
-        <li>✔ Affordable pricing</li>
-        <li>✔ Quality materials</li>
-        <li>✔ Reliable service</li>
-        <li>✔ Customer satisfaction</li>
-        <li>✔ Residential & commercial expertise</li>
-    </ul>
-</section>
-
-<section id="projects" class="gallery">
-    <h2>POSTER</h2>
-
-    <img src="our work.jpeg" alt="Completed Project">
-
-    <p style="text-align:center;">
-        We take pride in delivering clean, durable and high-quality finishes
-        for every project we complete.
-    </p>
-</section>
-
-<section id="reviews">
-    <h2>Customer Testimonials</h2>
-
-    <div class="service-card">
-        <p>
-            "The team painted our home beautifully and finished on schedule.
-            Highly recommended!"
-        </p>
-    </div>
-
-    <div class="service-card">
-        <p>
-            "Professional pressure pump installation with excellent customer
-            service from start to finish."
-        </p>
-    </div>
-</section>
-
-<section>
-    <h2>Business Hours</h2>
-
-    <p>Monday – Friday: 08:00 – 17:00</p>
-    <p>Saturday: 08:00 – 13:00</p>
-    <p>Sunday: Closed</p>
-</section>
-
-<section id="quote">
-    <h2>Request a Free Quote</h2>
-
-    <form>
-        <input type="text" placeholder="Full Name" required>
-
-        <input type="email" placeholder="Email Address">
-
-        <input type="tel" placeholder="Phone Number">
-
-        <textarea rows="6" placeholder="Tell us about your project"></textarea>
-
-        <button type="submit">Send Request</button>
-    </form>
-</section>
-
-<section id="contact">
-    <h2>Contact Us</h2>
-
-    <p><strong>Call or WhatsApp:</strong></p>
-
-    <ul>
-        <li>📞 079 577 2692</li>
-        <li>📞 082 470 5089</li>
-        <li>📞 063 767 6189</li>
-    </ul>
-
-    <br>
-
-    <a href="https://wa.me/27795772692" class="btn">
-        Chat on WhatsApp
-    </a>
-</section>
-
-<footer>
-    <h3>Gudani ProCoat & Power</h3>
-
-    <p>Reliable • Quality • Professional Service</p>
-
-    <p>Painting | Waterproofing | Pressure Pumps | Motor Installation</p>
-
-    <p>&copy; 2026 Gudani ProCoat & Power. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html
+**Praise Mudau**
