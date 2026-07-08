@@ -20,7 +20,7 @@ A responsive business website developed using **HTML** and **CSS** for Gudani Pr
 ## Project Structure
 
 ```
-├── Logo.html
+├── GUDANI.html
 ├── Logo.jpeg
 ├── our work.jpeg
 └── README.md
@@ -29,7 +29,7 @@ A responsive business website developed using **HTML** and **CSS** for Gudani Pr
 ## How to Run
 
 1. Download or clone the repository.
-2. Open `Logo.html` in any modern web browser.
+2. Open `GUDANI.html` in any modern web browser.
 
 ## Future Improvements
 
@@ -38,6 +38,5 @@ A responsive business website developed using **HTML** and **CSS** for Gudani Pr
 * Improve SEO and accessibility.
 * Add more project images and customer reviews.
 
-## Author
-
-**Praise Mudau**
+## Author ##
+**Nduvho Mudau**
